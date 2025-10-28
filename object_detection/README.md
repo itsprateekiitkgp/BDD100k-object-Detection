@@ -26,3 +26,10 @@ Download the dataset from the link below:
 ### 🧩 Step 4: Modify Config file
 Update key values in train_im_sets, train_label_sets in 
 ``` config/bdd.yaml```
+
+
+### 🧩 Step 4: Train and Evaluate
+
+```python -m tools.train```
+
+```python -m tools.infer --evaluate False --infer_samples True```
